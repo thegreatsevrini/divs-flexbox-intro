@@ -102,30 +102,53 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 16px;
   height: 100%;
+  background-color: #f16059;
 }
 
 .wrapper {
-  display: flex;  
-  justify-content: space-between;/*add display:flex and set justify-content to space-between*/
+  display: flex;
+  justify-content: center;/*add display:flex and set justify-content to space-between*/
+  align-items: center;
   font-weight: 700;
+  background-color: #f16059;
+
 }
 
 .div-1, .div-2, .div-3 {
   width: 30%;
   display: flex;
-  justify-content: center:
-  align-items: center;/*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  justify-content: center;
+  align-items: flex-start ;/*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1.1em;
   background-color: #f16059;
-  height: 300px;
+  height: 250px;
+  text-align: left;
 }
 
+.div-1, .div-2 {
+  border-right: solid white 1px;
+
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+p {
+  padding: 1.5em;
+}
 
 
 
